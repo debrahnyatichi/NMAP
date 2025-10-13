@@ -1,54 +1,74 @@
-NMAP COURSE CONTENT
-NMAP Introduction
-Port Scanning and Its Techniques
-OSI Model and its Layers
-Analyzing Network Layer using Wireshark
-Scanning TCP&UDP Models
-TCP Headers and 3-way Handshake
-Network Discovery
-Nmap Syn,Ack,UDP.ARP Scan (Bypass Firewall)
-Nmap ICMP Timestamp, Traceroute, DNS Resolution
-Nmap:
-Scanning linux based machine
-Port specification and Scan Order
-Scan Techniques(-sS, ST, sW, sM)
-OS and service detection Aggressive scan, UDP range scan, Result diagnosis
-Output and verbosity
+# NMAP COURSE CONTENT
 
-Nmap IDS EVASION:
-Null scan
-packet fragmentation
-FIN scan
-XMAS scan
-IP Spoofing(Decoy)
-How to detect Firewall
-Mac Spofing, IP Spoofing, Proxies etc
+## Introduction
+- Nmap Introduction
+- Port Scanning and Its Techniques
+- OSI Model and its Layers
+- Analyzing Network Layer using Wireshark
 
-NMAP:
-Timing template- T0, T1, T2,T3,T4,T5
-Scan delay and host timeout
-Script scanning
-Banner Grabbing
-whois lookup
-Subdomain bruteforce
-Finding Hidden Directories
-How to detect web firewalls
-MySQL Enumeration
+## TCP / UDP Basics
+- Scanning TCP & UDP Models
+- TCP Headers and 3-way Handshake
+- Network Discovery
 
-Vulnerability Scanning using Nmap
-Installing webmap
-Nmap scanning and generating a report
-FTP Enumeration and exploitation
-ssh enumaration and exploitation using msfconsole and hydra
-Telnet enumeration and exploitation
-smtp enumeration and exploitation
-port 80 enumeration and exploitation 
-Netbios enumeration and exploitation 
-Rexec enumeration and exploitation 
-javarmi enumeration and exploitation 
-mysql enumeration and exploitation 
-postgresql enumeration and exploitation 
-vnc enumeration and exploitation 
-x11 enumeration and exploitation 
-apache tomcat enumeration and exploitation 
-Exploiting Ruby DRB vulnerability
+## Nmap Scans & Techniques
+- Nmap SYN, ACK, UDP, ARP Scan (Bypass Firewall)
+- Nmap ICMP Timestamp
+- Traceroute
+- DNS Resolution
+- Scanning Linux-based machines
+- Port specification and Scan Order
+- Scan Techniques:
+  - `-sS` (SYN scan)
+  - `-sT` (TCP connect)
+  - `-sW` (window scan)
+  - `-sM` (Maimon scan)
+- OS and Service Detection
+- Aggressive Scan
+- UDP Range Scan
+- Result Diagnosis
+- Output and Verbosity
+
+## Nmap IDS Evasion
+- Null scan
+- Packet fragmentation
+- FIN scan
+- XMAS scan
+- IP Spoofing (Decoy)
+- How to detect Firewalls
+- MAC Spoofing, IP Spoofing, Proxies, etc.
+
+## Timing & Performance
+- Nmap Timing templates: T0, T1, T2, T3, T4, T5
+- Scan delay and host timeout
+
+## Advanced Nmap Features
+- Script scanning (NSE)
+- Banner Grabbing
+- `whois` lookup
+- Subdomain brute-force
+- Finding Hidden Directories
+- How to detect web firewalls
+- MySQL Enumeration
+
+## Vulnerability Scanning / Reporting
+- Vulnerability Scanning using Nmap
+- Installing webmap
+- Nmap scanning and generating a report
+
+## Service Enumeration & Exploitation
+*(Enumeration and exploitation techniques for each service)*
+- FTP enumeration and exploitation
+- SSH enumeration and exploitation using Metasploit (`msfconsole`) and Hydra
+- Telnet enumeration and exploitation
+- SMTP enumeration and exploitation
+- HTTP / Port 80 enumeration and exploitation
+- NetBIOS enumeration and exploitation
+- Rexec enumeration and exploitation
+- Java RMI enumeration and exploitation
+- MySQL enumeration and exploitation
+- PostgreSQL enumeration and exploitation
+- VNC enumeration and exploitation
+- X11 enumeration and exploitation
+- Apache Tomcat enumeration and exploitation
+- Exploiting Ruby DRB vulnerability
