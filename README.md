@@ -1,6 +1,4 @@
-# NMAP
-
-COURSE CONTENT
+NMAP COURSE CONTENT
 NMAP Introduction
 Port Scanning and Its Techniques
 OSI Model and its Layers
